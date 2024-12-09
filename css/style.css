@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+.container {
+    margin-top: 20px;
+}
+
+.photo {
+    height: 800px;
+}
+
+.btn_contain {
+    display: flex;
+    justify-content: center;
+}
+
+.btn_next, .btn_back {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 2px solid #aaa6a6;
+    background-color: #342d2d;
+    color: #ddd;
+}
+
+.btn_next:hover, .btn_back:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.photo_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
